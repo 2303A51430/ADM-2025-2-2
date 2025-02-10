@@ -12,7 +12,7 @@ This repository contains lab assignments related to **Applications of Data Minin
 
 ## Technologies Used
 - Python
-- Jupyter Notebook
+- Google Colab
 - Pandas
 - NumPy
 - Scikit-learn
@@ -40,22 +40,18 @@ This repository contains lab assignments related to **Applications of Data Minin
    - Time Series Forecasting
 
 ## How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/data-mining-lab.git
+1. Open Google Colab: [Google Colab](https://colab.research.google.com/)
+2. Upload the notebook to Google Colab
+3. Install dependencies (if required) by running:
+   ```python
+   !pip install -r requirements.txt
    ```
-2. Navigate to the project folder:
-   ```bash
-   cd data-mining-lab
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Open Jupyter Notebook:
-   ```bash
-   jupyter notebook
-   ```
+4. Execute the notebook cells sequentially.
+
+## Uploading to GitHub
+After completing the assignment in Google Colab, upload the notebook to your GitHub repository:
+- **GitHub Repository:** [2303A51430/ADM-2025-2-2](https://github.com/2303A51430/ADM-2025-2-2)
+- Save the notebook as `.ipynb` and commit it to the repository.
 
 ## Dataset Information
 The datasets used for experiments are sourced from platforms like Kaggle, UCI Machine Learning Repository, or synthetic datasets generated using Python.
